@@ -1,0 +1,26 @@
+{
+  "Amethyst": {
+    "properties": ["calming", "spiritual", "protection", "intuition"]
+  },
+  "Rose Quartz": {
+    "properties": ["love", "compassion", "emotional healing", "self-esteem"]
+  },
+  "Clear Quartz": {
+    "properties": ["amplification", "clarity", "energy", "focus"]
+  },
+  "Citrine": {
+    "properties": ["abundance", "positivity", "motivation", "creativity"]
+  },
+  "Black Tourmaline": {
+    "properties": ["protection", "grounding", "stress relief", "purification"]
+  },
+  "Lapis Lazuli": {
+    "properties": ["truth", "wisdom", "communication", "intuition"]
+  },
+  "Carnelian": {
+    "properties": ["confidence", "passion", "energy", "motivation"]
+  },
+  "Moonstone": {
+    "properties": ["intuition", "feminine energy", "new beginnings", "emotional balance"]
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+
+  <!-- CSP-safe JSPDF CDN (updated to avoid 'eval' error) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+  <h1><strong>🔮Crystal Compatibility Checker</strong></h1>
+  <p>This is a beta app which lets you check the compatibility of any two crystals of your choice.</p>
+
+  <div class="input-section">
+    <div class="crystal-input">
+      <h2>Crystal One</h2>
+      <input type="text" id="crystal1" placeholder="Start typing crystal name..." autocomplete="off">
+      <div id="suggestions1" class="suggestions"></div>
+    </div>
+
+    <div class="crystal-input">
+      <h2>Crystal Two</h2>
+      <input type="text" id="crystal2" placeholder="Start typing crystal name..." autocomplete="off">
+      <div id="suggestions2" class="suggestions"></div>
+    </div>
+  </div>
+
+  <button class="compatibility-button">Check Compatibility</button>
+
+  <div id="result-container" class="result-container">
+    <div class="result-content">
+      <p id="compatibility-result">Enter two crystal names to check compatibility.</p>
+      <img id="compatibility-image" src="" alt="Compatibility Image" style="display:none;">
+    </div>
+  </div>
+
+  <!-- Loading Spinner -->
+  <div id="loading-spinner" style="display:none;">
+    <p>🔮 Checking compatibility...</p>
+  </div>
+
+
+  <!-- Download button -->
+  <button class="download-button">Download Result as PDF</button>
+
+  <div id="loading-spinner" class="crystal-spinner">
+    <span class="emoji">🔮</span>
+    <p>Checking compatibility...</p>
+  </div>
+
+
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
